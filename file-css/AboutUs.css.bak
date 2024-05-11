@@ -1,0 +1,35 @@
+
+.cont{
+    background-color:rgba(50,50,50,0.4);
+	padding:45px 45px 35px 35px;
+	width: 450px;
+	left: 50%;
+	position: absolute;
+	margin-left: -260px;
+    border-radius: 19px;
+	text-align: center;	
+    display: flex;
+    flex-direction: column;
+}
+h1{
+	text-align:center;
+	color:white;
+	font-family:cursive;
+}
+pre{
+	text-align: left;
+	font-weight:bold;
+	font-size:20px;
+	color:#D3F4FB;
+	font-family:cursive;
+    
+	
+}
+body{
+	margin:auto;
+	position: relative;
+	background-image: url('../Home Wall.jpg');
+    background-attachment: fixed;  
+      
+	
+}

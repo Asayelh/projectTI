@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<hr  width="100%" />
+<head>
+ <title> sign up Bage</title>
+ <link rel="stylesheet" type="text/css" href="file-css/style.css" >
+ </head>
+
+  <!--Form--> 
+ <form name="myForm"  onsubmit="alerts()"  >
+ <div class="sign_group">
+ <h1> welcome to our website </h1>
+ 
+ <label for="fullName"><b>First Name </b></label>
+ <input type="text" id="fullname" name="name"placeholder="Enter Full Name" ><br>
+ 
+ <label for="userName"><b>User Name </b></label>
+ <input type="text" id="userName" name="userName"placeholder="Enter User Name " ><br>
+
+ <label for="Email"> <b>Email </b></label>
+ <input type="Email" id="Email" placeholder="Enter Your Email" required><br>
+ 
+ <label for="number"> <b>Number </b></label>
+ <input type="tel" id="number" placeholder="0557088565"><br>
+ 
+ 
+ <label for="psw"><b>Password </b></label>
+ <input type="password" id="psw" placeholder="Enter Password" name="psw"  ><br>
+  
+ <label for="psw-repeat"><b>Repeat Password</b></label>
+ <input type="password"id="psw-repeat" placeholder="Repeat Password" name="psw-repeat"  required><br>
+	
+	<b>Gender:</b>
+	
+ <input type="radio" id="Male" name="g" value="Male" required>
+ <label for="Male">Male</label>
+ 
+ <input type="radio" id="Female" name="g" value="Female" required>
+ <label for="Female">Female</label>
+ <br>
+ 
+  <button type="submit" class="registerbtn">Sign Up</button>
+  <div class="consignin">
+  
+  
+  <!--home--> 
+  
+ <div class ="i">
+ <a href="HomePage.html">
+ <img src="img/ho.jpg">
+ </a>
+ </div>
+  
+  <!--end-->
+  <p>Already have an account? <a href="signin.html"><b>Sign in</b></a>.</p>
+  </div>
+  </div>
+
+</form>
+
+	<script>
+      function alerts(){
+        var x = document.forms["myForm"]["userName"].value;
+		var p = document.forms["myForm"]["psw"].value;
+        if(x  == "" || p == ""){
+          alert('Hello\nYou Must fill in all the blanks');
+            return false;
+        } 
+        else{
+          alert('Welcome to our website ');
+              return true;
+      }
+      
+    }
+    </script>
+
+</html>

@@ -1,0 +1,52 @@
+<html>
+<hr  width="100%" />
+   <head>
+	<title> Sign In</title>
+	<link rel="stylesheet" type="text/css" href="file-css/pageStyle.css" >
+   </head>
+	<body>
+ <form name="myForm"  onsubmit="alerts()"  >
+		
+ <div class="sign_group">
+ <h1>welcome back </h1>
+<label for="userName"><b>User Name </b></label>
+ <input type="text" id="userName" name="userName"placeholder="Enter User Name "  ><br>
+ 
+ <label for="psw"><b>Password </b></label>
+  <input type="password" id="psw" placeholder="Enter Password" name="psw">
+  
+  
+   <button type="submit" class="registerbtn">Sign In</button>
+   <!--home-->
+  
+  <div class ="i">
+ <a  href="HomePage.html">
+ <img src="img/ho.jpg">
+ </a>
+  </div>
+  
+  <div class="consignin">
+    <p>You don't have an account ! <a href="register.html"><b>Sign up</b></a>.</p>
+  </div>
+		</div>	
+
+</form>
+<script>
+      function alerts(){
+        var x = document.forms["myForm"]["userName"].value;
+		var p = document.forms["myForm"]["psw"].value;
+        if(x  == "" || p == ""){
+          alert('Hello\nYou Must fill in all the blanks');
+            return false;
+        } 
+        else{
+          alert('sign in is accepted');
+              return true;
+      }
+      
+    }
+     </script>
+
+
+	</body>	
+	</html>

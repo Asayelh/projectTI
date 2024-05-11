@@ -1,0 +1,49 @@
+* {
+           box-sizing: border-box;
+  }
+
+  body {
+      background-image: url('../Home Wall.jpg');
+      background-attachment: fixed;  
+      margin: 0 350px 0 350px;
+
+     font-family:'Averia Serif Libre', cursive;
+} 
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;          
+}
+
+.flex-container > div {
+    background-color:#f1f1f1 ;
+    margin: 10px;
+    padding-left: 10px;
+   border-style: inset;
+}
+
+h2{
+           margin-top: 5px;   
+}
+
+img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style:ridge; 
+}
+
+.text{
+           display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text > div {
+  margin: 10px;
+  text-align: center;
+}
+
+ul{
+           border-left-style: ridge;
+}

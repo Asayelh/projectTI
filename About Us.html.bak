@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About US</title>
+<meta charset = "utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="file-css/AboutUs.css" type="text/css">
+</head>
+<body>
+
+
+<div class="cont">
+<h1>About US!</h1>
+<pre>Some people may not always be able to pay for
+food from their favorite restaurant, 
+happily that our website will save your money 
+by making your favorite food by 
+yourself with our tasty and easy recipes.</pre>
+<pre>In addition to that, the diversity of cuisines 
+is an idea that came to us from the diversity 
+of people's tastes. 
+There are some people who love Mexican cuisine,
+Saudi Arabian cuisine,or those who love Japanese 
+or American cuisine. 
+Therefore, we have collected for you on our 
+website many cuisines that you can taste the tasty 
+foods of each Cuisine and try it with 
+the ones you love.</pre>
+<br><br><br>
+</div>
+</body>
+</html>

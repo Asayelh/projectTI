@@ -1,0 +1,75 @@
+
+h1{
+	text-align:center;
+}
+
+body {
+      background-image: url('../Home Wall.jpg');
+      background-attachment: fixed;  
+       margin: 0 350px 0 350px;
+}
+
+.i img {
+	width: 30px;
+	border-radius: 50%;
+}
+.i{
+	margin: 30px;
+	text-align: center ;
+	
+}
+
+.sign_group{
+	
+	background-color:rgba(50,50,50,0.4);
+	padding:45px 45px 35px 35px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+	margin-left: -260px;
+    border-radius: 19px;
+	text-align: center;	
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: "Times New Roman", Times, serif;       
+}
+
+
+input[type=text], input[type=password],input[type=Email], input[type=tel]{
+  width: 70%;
+  padding: 15px;
+  margin: 5px;
+  display: inline-block;
+  border: none;
+  background: white;
+}
+
+.registerbtn{
+  display: inline-block;
+  padding: 10px 15px;
+  font-size:15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color:rgba(50,50,50,0.2);
+  border:33px;
+  border-radius: 15px;
+  box-shadow:0 5px;
+	
+}
+.registerbtn:hover {
+	background-color: #FFFFFF
+	}
+
+a{
+    color: black;
+	text-decoration: none;
+	margin: 10px;
+}
+
+
+
